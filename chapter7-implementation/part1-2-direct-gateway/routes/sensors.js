@@ -1,3 +1,4 @@
+/*
 // Final version
 var express = require('express'),
   router = express.Router(),
@@ -24,13 +25,13 @@ router.route('/humidity').get(function (req, res, next) {
 });
 
 module.exports = router;
+*/
 
 //#A Assign the results to a new property of the req object that you pass along from middleware to middleware
 //#B Call the next middleware; the framework will ensure the next middleware gets access to req (including the req.result) and res
 
 
 
-/*
 // Initial version
 var express = require('express'),
   router = express.Router(), //#A
