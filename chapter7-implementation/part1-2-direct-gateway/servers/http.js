@@ -45,7 +45,7 @@ app.use('/pi/actuators', actuatorsRoutes); //#D
 app.use('/pi/sensors', sensorRoutes);
 
 app.get('/pi', function (req, res) { //#E
-  res.render('This is the WoT-Pi!')
+  res.send('This is the WoT-Pi!')
 });
 
 module.exports = app;
