@@ -28,7 +28,7 @@ function connectHardware() {
  var sensorDriver = require('node-dht-sensor');
   var sensor = {
     initialize: function () {
-      return sensorDriver.initialize(22, model.temperature.gpio); //#A
+      return sensorDriver.initialize(11, model.temperature.gpio); //#A
     },
     read: function () {
       var readout = sensorDriver.read(); //#B
