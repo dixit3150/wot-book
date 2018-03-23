@@ -1,4 +1,4 @@
-*/
+/*
 // Final version
 var express = require('express'),
   router = express.Router(),
@@ -61,4 +61,3 @@ module.exports = router; //#F
 //#D This route serves the passive infrared sensor
 //#E These routes serve the temperature and humidity sensor
 //#F We export router to make it accessible for "requirers" of this file
-*/
